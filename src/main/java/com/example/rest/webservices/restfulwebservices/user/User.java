@@ -9,6 +9,10 @@ public class User {
 	
 	private Date dob;
 	
+	public User() {
+		
+	}
+	
 	public User(Integer id, String name, Date dob) {
 		this.id = id;
 		this.name = name;
